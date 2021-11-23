@@ -20,7 +20,7 @@ function filldate(){
 <tr><img alt="" src="/images/welcome.jpg" align="top"/>
 </tr>
 <tr>
-<form action="search">
+<form action="/flyaway/search">
 Source<input type="text" name="source" value =${searchBean.source} >
 Destination<input type="text" name="dest" value =${searchBean.dest} >
 DEPARTURE<input type="date"   id="traveldt" name="traveldt" value=${searchBean.traveldt} >
